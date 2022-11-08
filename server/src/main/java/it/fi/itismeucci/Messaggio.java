@@ -9,7 +9,10 @@ public class Messaggio
     ArrayList <Biglietto> lista = new ArrayList<>();
     ObjectMapper objectMapper = new ObjectMapper();
 
+
+    
     //GETTER
+
 
     public ArrayList<Biglietto> getLista() {
         return lista;

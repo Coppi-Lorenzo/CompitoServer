@@ -9,7 +9,13 @@ public class Biglietto {
     String locazione = "tribuna"; 
     ObjectMapper objectMapper = new ObjectMapper();
 
+    
+
     //GETTER
+
+
+    public Biglietto() {
+    }
 
     public int getNumero() {
         return numero;
